@@ -57,15 +57,7 @@ Open issues with concrete proposals tied to blueprint sections and citations to 
 
 ## License
 
-Creative Commons Attribution 4.0 International (CC BY 4.0)
-
-This repository’s documentation, blueprints, and other non-code content are
-licensed under CC BY 4.0. You are free to share and adapt for any purpose,
-provided you give appropriate credit, provide a link to the license, and
-indicate if changes were made.
-
-To view a copy of this license, visit:
-https://creativecommons.org/licenses/by/4.0/
+CC0 1.0 Universal
 
 
 
@@ -130,12 +122,7 @@ Rubric-based оценивание, согласованное с текстов�
 
 ## Лицензия
 
-Creative Commons Attribution 4.0 International (CC BY 4.0)
-
-This repository’s documentation, blueprints, and other non-code content are
-licensed under CC BY 4.0. You are free to share and adapt for any purpose,
-provided you give appropriate credit, provide a link to the license, and
-indicate if changes were made.
+CC0 1.0 Universal
 
 To view a copy of this license, visit:
 https://creativecommons.org/licenses/by/4.0/
