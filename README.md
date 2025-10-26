@@ -1,126 +1,58 @@
-# Emulated Expertise Architecture — System Blueprint
+# Supplementary Materials: From Measurement to Understanding
 
-## Summary
+**An Architecture of Emulated Expertise for LLM-Diagnostics in Education**
 
-Multi-agent LLM blueprint for high-stakes expert emulation via decomposition, layered verification, and controlled human interaction. Roles: Orchestrators, Domain Experts, Domain Supervisors, Simplifier. Phases: Collection → Analysis → Synthesis → Persistence. Iterative feedback loops enforce echeloned quality control. 
-
-## Architecture
-
-* **Macroarchitecture.** Network of functional units with strict role separation and process orchestration. 
-* **Roles.**
-  Orchestrators manage flows and state; Domain Expert performs deep analysis; Domain Supervisor runs independent audit; Simplifier adapts output.
-* **Workflow.**
-
-  1. Collection & Dispatching (Orchestrator-1) → 2) Parallel Analysis & Review (N Expert–Supervisor pairs) → 3) System Synthesis (Orchestrator-2) → 4) Aggregation & Persistence (Orchestrator-3).
-* **Feedback loops.** Local Expert–Supervisor review and system refinement cycles improve quality in real time.
-
-## Microarchitecture (Prompts as Executable Methodology)
-
-Standardized prompt “constructor”: ROLE, GOAL, CONSTRAINTS/PRINCIPLES, INSTRUCTIONS, OUTPUT_FORMAT (JSON). Functional specialization per agent archetype.
-
-### Researcher (Domain Expert)
-
-Hierarchical synthesis from citations → aspect conclusions → competing global hypotheses; dialectical thesis–antithesis–synthesis; formalized arbitration selects the winning hypothesis.
-
-### Auditor (Domain Supervisor)
-
-Echeloned verification pipeline: data audit → methodology audit → quantitative reliability (Confidence Score) → algorithmic arbitration and revision package.
-
-### Communicator (Simplifier)
-
-Ethical and didactic adaptation for non-specialists; assembly of coherent final artifacts.
-
-## Quantification and Consistency
-
-Rubric-based evaluation aligned with qualitative conclusions; Calculator and Assembler produce final scores and JSON package, ensuring qualitative–quantitative consistency.
-
-## Repository Contents
-
-* `Архитектура Эмулированной Экспертизы Blueprint системы.docx` — primary blueprint in RU/EN. 
-
-## Getting Started
-
-1. Read Macroarchitecture and Workflow to map roles and handoffs. 
-2. Derive prompt sets from the standardized template for each agent archetype. 
-3. Implement orchestration states and gateways mirroring arbitration and feedback cycles.
-4. Enforce output schemas for qualitative report, scores, and persistence.
-
-## Roadmap (suggested)
-
-* Reference JSON schemas for outputs.
-* Minimal orchestrator example.
-* Validation harness for Confidence Score audits.
-
-## Contributing
-
-Open issues with concrete proposals tied to blueprint sections and citations to the doc.
-
-## License
-
-CC0 1.0 Universal
-
-
+**Authors:** O.E. Klepikov, E.M. Pozdnyakova, Y.O. Sizov 
+**Affiliation:** MGIMO University, Moscow, Russian Federation
 
 ---
 
-# Архитектура Эмулированной Экспертизы — Blueprint системы
+## Overview
 
-## Резюме
+This repository contains the supplementary materials for the paper, "From Measurement to Understanding: An Architecture of Emulated Expertise for LLM-Diagnostics in Education." These materials provide the complete conceptual blueprint, methodological rationale, and validation protocols for a new generation of diagnostic systems designed to ensure methodological validity in high-stakes educational contexts using Large Language Models (LLMs).
 
-Мультиагентный LLM-блюпринт для эмуляции экспертного суждения в высокорисковых задачах через декомпозицию, эшелонированную верификацию и управляемое взаимодействие с человеком. Роли: Оркестраторы, Доменные Эксперты, Супервизоры, Симплифайер. Фазы: Сбор → Анализ → Синтез → Персистенция. Встроенные циклы обратной связи повышают качество.
+**Abstract:** The demand for developmental diagnostics in personalized education reveals a fundamental crisis in classical psychometrics. In response, this paper presents a conceptual blueprint for a new generation of diagnostic systems, engineered to ensure methodological validity in high-stakes contexts by leveraging large language models (LLMs). The project is grounded in five core principles: methodological grounding (evidence-centered design), a hybrid 'centaur' architecture, echeloned quality control, role-oriented utility, and data sovereignty. The core innovation is an 'emulated expertise architecture' that emulates not the expert's consciousness but their idealized professional workflow. It decomposes the act of judgment into a network of verifiable procedures - including systematic falsification, independent peer review (supervision), and dialectical synthesis - executed by a multi-agent system of functionally specialized 'prompt archetypes' ('researcher', 'auditor', 'communicator'). The entire process is governed by the 'human-over-the-loop' (HOTL) ethical imperative, positioning the system as a tool for expert augmentation. This approach facilitates a paradigm shift from a 'psychometrics of measurement' to a 'psychometrics of understanding,' generating not merely a score, but a dynamic, contextualized model of a learner's cognitive processes.
 
-## Архитектура
+## Core Innovation: The Emulated Expertise Architecture
 
-* **Макроархитектура.** Сеть функциональных юнитов с жестким разделением ролей и оркестрацией процесса. 
-* **Роли.**
-  Оркестраторы управляют потоками и состоянием; Доменный Эксперт проводит глубокий анализ; Супервизор — независимый рецензент; Симплифайер адаптирует вывод. 
-* **Сквозной процесс.**
+The central innovation is an architecture that emulates an idealized, rigorous, and transparent professional workflow rather than attempting to replicate the opaque consciousness of a human expert. This is achieved through a multi-agent system of functionally specialized **prompt archetypes**:
 
-  1. Сбор и диспетчеризация (Оркестратор-1) → 2) Параллельный анализ и рецензирование (N пар Эксперт–Супервизор) → 3) Системный синтез (Оркестратор-2) → 4) Агрегация и персистенция (Оркестратор-3). 
-* **Циклы обратной связи.** Локальный цикл Эксперт–Супервизор и системная доработка повышают надежность. 
+*   **The 'Researcher'**: The core diagnostic engine. It analyzes textual data to generate and critically test multiple competing hypotheses about a user's cognitive and personality patterns, using dialectical methods (thesis-antithesis-synthesis) to arrive at the most robust explanation.
+*   **The 'Auditor'**: The quality control unit. It performs an independent, multi-tiered verification of the 'Researcher's' work, auditing everything from the evidence base and logical consistency to methodological congruence, ensuring the final output is sound and defensible.
+*   **The 'Communicator'**: The user-facing adaptation layer. It translates the dense, professional report from the 'Researcher' into an accessible, ethically-grounded, and pedagogically valuable format for the end-user, ensuring clarity and promoting self-reflection.
 
-## Микроархитектура (Промпты как исполнимая методология)
+## Repository Contents: A Guide to the Supplementary Materials
 
-Стандартизованный «конструктор» промптов: ROLE, GOAL, CONSTRAINTS/PRINCIPLES, INSTRUCTIONS, OUTPUT_FORMAT (JSON). Функциональная специализация под архетипы. 
+This repository provides the full text of the supplementary materials, which detail the conceptual and methodological foundations of the system. The document is structured to provide a complete, multi-layered account of the project’s design.
 
-### Исследователь (Доменный Эксперт)
+**Please note:** The scope of this disclosure is limited to conceptual and methodological specifications. Environment-specific engineering assets (e.g., full prompt libraries, orchestration logic, runtime configurations) are implementation-dependent and fall outside the scope of these materials.
 
-Иерархический синтез от цитат к аспектам и глобальным гипотезам; диалектическая триада; формализованный арбитраж выбирает итоговую модель.
+### Section S0: Methodology for Translating Psychometric Instruments into Behavioral Analysis Protocols
+Details the core, five-phase R&D process for translating any introspective psychometric instrument into a valid, text-based behavioral analysis protocol. This is the foundation that ensures the system's methodological grounding.
 
-### Аудитор (Супервизор)
+### Section S1: Microarchitecture of the ‘Prompt Researcher’
+Provides a complete specification of the ‘Researcher’ archetype, including its heuristic core for hypothesis generation, the sub-process for reflective self-audit (confidence score calculation), and the finalization process for generating consistent qualitative and quantitative outputs.
 
-Иерархический конвейер проверки: аудит данных → аудит методологии → количественная надежность (Confidence Score) → алгоритмический арбитраж и пакет доработки.
+### Section S2: Microarchitecture of the ‘Prompt Auditor’
+Details the ‘Auditor’ archetype, which implements echeloned quality control. It describes the multi-tiered verification pipeline, from the audit of the evidence base to final arbitration.
 
-### Коммуникатор (Симплифайер)
+### Section S3: Microarchitecture of the ‘Prompt Communicator’
+Describes the ‘Communicator’ archetype, outlining the multi-stage process for the ethical and didactic adaptation of the professional report for the end-user, including mechanisms for ensuring stylistic consistency and the dynamic generation of auxiliary materials.
 
-Этическая и дидактическая адаптация для неспециалистов; сборка финальных артефактов. 
+### Section S4: Multi-Level Validation Protocol
+Presents the formal, detailed plan for the future empirical verification of the system, including its psychometric (reliability, validity), didactic (pedagogical effectiveness), and bias audit components.
 
-## Квантификация и консистентность
+### Section S5: Epistemological and Ontological Foundations
+Elaborates on the deeper philosophical grounding of the project in process-relational ontology (viewing traits as dynamic patterns) and critical fallibilism (viewing knowledge as the result of conjecture and refutation).
 
-Rubric-based оценивание, согласованное с текстовыми выводами; Калькулятор и Сборщик формируют баллы и финальный JSON-пакет.
+### Section S6: Full System Blueprint and Technical Specifications
+Provides a formal reference and clarifies the scope of disclosure, committing to open science principles while distinguishing conceptual blueprints from implementation-specific assets.
 
-## Содержимое репозитория
+## How to Cite
 
-* `Архитектура Эмулированной Экспертизы Blueprint системы.docx` — основной документ (RU/EN). 
+If you use or refer to the concepts in this work, please cite the original publication.
 
-## Быстрый старт
-
-1. Освоить макроархитектуру и фазы. 
-2. Синтезировать наборы промптов по шаблону под роли. 
-3. Реализовать оркестрацию и шлюзы арбитража/ревизий. 
-4. Стандартизовать артефакты: отчёт, метрики, JSON. 
-
-## Дорожная карта (предложение)
-
-* Референс-схемы JSON.
-* Минимальный пример оркестратора.
-* Тестовый стенд для Confidence Score.
-
-## Вклад
-
-Создавайте задачи и PR с привязкой к разделам документа и цитатами.
-
-## Лицензия
+## License
 
 CC0 1.0 Universal
 
